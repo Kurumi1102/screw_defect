@@ -11,7 +11,7 @@ Python needed
 pip install -r requirements.txt
 ```
 
-2. Run the program
+3. Run the program
 ```
 python main.py
 ```
