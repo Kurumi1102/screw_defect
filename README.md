@@ -1,20 +1,13 @@
-# How to play
-Installation
+# How to use
 1. Clone the repository
 
 ```
-git clone https://github.com/Kurumi1102/Strategy-Game-using-DQN.git
-cd Strategy-Game-using-DQN
+git clone https://github.com/Kurumi1102/screw_defect.git
+cd screw_defect
 ```
+Python recommended
 
-2. Install dependencies
-```
-pip install -r requirements.txt
-```
-
-Python 3.8+ recommended
-
-3. Run the game
+2. Run the program
 ```
 python main.py
 ```
