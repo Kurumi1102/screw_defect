@@ -5,6 +5,8 @@ import tkinter as tk
 from tkinter import filedialog
 import matplotlib.pyplot as plt
 import os
+from tensorflow.keras.models import load_model
+
 
 def find_model(root_folder, filename="screw_resnet.h5"):
     for dirpath, dirnames, filenames in os.walk(root_folder):
