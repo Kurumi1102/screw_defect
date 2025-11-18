@@ -11,3 +11,7 @@ Python recommended
 ```
 python main.py
 ```
+
+# Note
+The **test** folder only contains a small number of sample files.
+For access to the full dataset, please contact: nhonhm25@gmail.com
