@@ -6,7 +6,7 @@ from tkinter import filedialog
 import matplotlib.pyplot as plt
 
 # Load model
-model = tf.keras.models.load_model("*/screw_resnet.h5")
+model = tf.keras.models.load_model("screw_resnet.h5")
 
 # Class names
 class_names = [
