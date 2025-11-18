@@ -5,6 +5,7 @@ git clone https://github.com/Kurumi1102/screw_defect.git
 cd screw_defect
 ```
 Python needed
+
 2. Install requirements
 ```
 pip install -r requirements.txt
