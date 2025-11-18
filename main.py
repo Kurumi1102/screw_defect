@@ -4,9 +4,22 @@ from tensorflow.keras.preprocessing import image
 import tkinter as tk
 from tkinter import filedialog
 import matplotlib.pyplot as plt
+import os
 
-# Load model
-model = tf.keras.models.load_model("screw_resnet.h5")
+def find_model(root_folder, filename="screw_resnet.h5"):
+    for dirpath, dirnames, filenames in os.walk(root_folder):
+        if filename in filenames:
+            return os.path.join(dirpath, filename)
+    return None
+
+root_folder = "."  # current folder
+model_file = find_model(root_folder)
+
+if model_file:
+    print("Model found:", model_file)
+    model = load_model(model_file)
+else:
+    print("Model not found!")
 
 # Class names
 class_names = [
