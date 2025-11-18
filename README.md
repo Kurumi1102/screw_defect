@@ -7,7 +7,23 @@ cd screw_defect
 ```
 Python needed
 
-2. Run the program
+2. Install Git LFS on Windows
+
+Go to Git LFS download page https://git-lfs.com/ and download the Windows installer.
+
+Run the installer.
+
+Open Command Prompt or PowerShell and run:
+
+```git lfs install```
+
+3. Pull the LFS files
+
+Go to your cloned repo folder in Command Prompt or PowerShell if not:
+```
+git lfs pull
+```
+4. Run the program
 ```
 python main.py
 ```
