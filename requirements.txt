@@ -1,0 +1,15 @@
+# core deep-learning libraries
+tensorflow>=2.8.0,<3.0
+keras>=2.8.0,<3.0
+
+# data manipulation & image processing
+numpy>=1.21.0
+pillow>=8.0.0
+opencv-python>=4.5.0
+
+# for loading/saving the model
+h5py>=3.1.0
+
+# utilities
+matplotlib>=3.3.0
+scikit-learn>=1.0.0
