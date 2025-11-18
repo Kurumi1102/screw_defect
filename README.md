@@ -15,7 +15,9 @@ Run the installer.
 
 Open Command Prompt or PowerShell and run:
 
-```git lfs install```
+```
+git lfs install
+```
 
 3. Pull the LFS files
 
